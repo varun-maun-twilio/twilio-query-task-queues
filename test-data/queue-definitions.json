@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Queue 1",
+        "expr": "routing.channels HAS 'Messaging' AND routing.skills HAS 'Skill1' "
+    },
+    {
+        "name": "Queue 2",
+        "expr": "routing.channels HAS 'Messaging' AND routing.skills HAS 'Skill1'"
+    },
+    {
+        "name": "Queue 3",
+        "expr": "routing.channels HAS 'Messaging' AND (  routing.skills HAS 'Skill1' OR routing.skills HAS 'Skill2' ) "
+    },
+    {
+        "name": "Queue 4",
+        "expr": "routing.channels HAS 'Messaging' AND routing.skills HAS 'Skill4' "
+    }
+   
+]

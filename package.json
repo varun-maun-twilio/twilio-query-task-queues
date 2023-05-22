@@ -1,0 +1,17 @@
+{
+  "name": "twilio-query-task-queues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "eval": "^0.1.8",
+    "twilio": "^4.11.1"
+  }
+}
